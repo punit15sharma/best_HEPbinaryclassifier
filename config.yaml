@@ -1,0 +1,69 @@
+input_path: '/eos/user/p/pusharma/FCC_analysis/outputs/ZHadronic_6JetReco_v1/stage2'
+0:
+  - p8_ee_WW_ecm240
+  - p8_ee_ZZ_ecm240
+  - p8_ee_Zqq_ecm240
+  - wzp6_ee_bbH_HWW_ecm240
+  - wzp6_ee_bbH_HZZ_ecm240
+  - wzp6_ee_bbH_HZa_ecm240
+  - wzp6_ee_bbH_Hbb_ecm240
+  - wzp6_ee_bbH_Hcc_ecm240
+  - wzp6_ee_bbH_Hgg_ecm240
+  - wzp6_ee_bbH_Hss_ecm240
+  - wzp6_ee_bbH_Htautau_ecm240
+  - wzp6_ee_ccH_HWW_ecm240
+  - wzp6_ee_ccH_HZZ_ecm240
+  - wzp6_ee_ccH_HZa_ecm240
+  - wzp6_ee_ccH_Hbb_ecm240
+  - wzp6_ee_ccH_Hcc_ecm240
+  - wzp6_ee_ccH_Hgg_ecm240
+  - wzp6_ee_ccH_Hss_ecm240
+  - wzp6_ee_ccH_Htautau_ecm240
+  - wzp6_ee_nunuH_ecm240
+  - wzp6_ee_qqH_HWW_ecm240
+  - wzp6_ee_qqH_HZZ_ecm240
+  - wzp6_ee_qqH_HZa_ecm240
+  - wzp6_ee_qqH_Hbb_ecm240
+  - wzp6_ee_qqH_Hcc_ecm240
+  - wzp6_ee_qqH_Hgg_ecm240
+  - wzp6_ee_qqH_Hss_ecm240
+  - wzp6_ee_qqH_Htautau_ecm240
+  - wzp6_ee_ssH_HWW_ecm240
+  - wzp6_ee_ssH_HZZ_ecm240
+  - wzp6_ee_ssH_HZa_ecm240
+  - wzp6_ee_ssH_Hbb_ecm240
+  - wzp6_ee_ssH_Hcc_ecm240
+  - wzp6_ee_ssH_Hgg_ecm240
+  - wzp6_ee_ssH_Hss_ecm240
+  - wzp6_ee_ssH_Htautau_ecm240
+1:
+  - wzp6_ee_qqH_HZZ_qqqq_ecm240
+
+variables:
+  - 'b_mH_ZZ'
+  - 'b_mZ1_jj'
+  - 'b_mZ2_jj'
+  - 'b_mZstar_jj'
+  - 'b_Z1_j1FlavorIdx'
+  - 'b_Z1_j2FlavorIdx'
+  - 'b_Z1_FlavorScoreCombined'
+  - 'b_Z2_FlavorScoreCombined'
+  - 'b_Z3_FlavorScoreCombined'
+  - 'b_Z2_j1FlavorIdx'
+  - 'b_Z2_j2FlavorIdx'
+  - 'b_Zstar_j1FlavorIdx'
+  - 'b_Zstar_j2FlavorIdx'
+  - 'b_DeltaR_HZ1Zstar_Z2'
+  - 'b_DeltaPhi_HZZ_Z2'
+  - 'b_d12'
+  - 'b_d23'
+  - 'b_d34'
+  - 'b_d45'
+  - 'b_d56'
+  - 'b_vis_E'
+  - 'b_vis_M'
+
+hyperparameters:
+  n_estimators: 200
+  learning_rate: 0.05
+  max_depth: 10
